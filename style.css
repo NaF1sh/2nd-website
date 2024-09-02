@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+}
+header {
+  background-color: #ffb6c1;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px;
+  display: flex; /* Use flexbox for better layout control */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+
+  height: 100vh;
+  justify-content: center;
+}
+main {
+  background-image: url("./images/art\ 2.jpg"); /* Try using a relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero h2 {
+  margin-bottom: 20px; /* Add a bottom margin to create space between the text and button */
+}
+#hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  background-color: #ff69b4;
+
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffb6c1;
+}
